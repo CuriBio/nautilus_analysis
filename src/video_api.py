@@ -7,9 +7,8 @@ from nd2 import ND2File
 from image_utils import rgbConverter, rgbToGray, grayToRGB
 
 import logging
-logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
+logging.basicConfig(format='[%(asctime)s.%(msecs)03d] [%(name)s] [%(levelname)s] %(message)s', level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S')
 log = logging.getLogger()
-
 
 supported_file_extensions = ['.mp4', '.avi', '.mov', '.nd2']
 # TODO: need supported reader types and supported writer types
