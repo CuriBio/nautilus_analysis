@@ -200,6 +200,7 @@ def signal_to_xlsx_for_sdk(signal_values: np.ndarray, time_stamps: np.ndarray, s
     frames_per_second = setup_config['fps']
     date_stamp = setup_config['recording_date']
     output_dir = setup_config['xlsx_output_dir_path']
+    data_type = setup_config['data_type']
 
     if 'barcode' in setup_config:
         well_plate_barcode = setup_config['barcode']
@@ -219,6 +220,7 @@ def signal_to_xlsx_for_sdk(signal_values: np.ndarray, time_stamps: np.ndarray, s
         sheet['E5'] = frames_per_second
         sheet['E6'] = 'y'  # do twitch's point up
         sheet['E7'] = 'NAUTILUS'  # microscope name
+        sheet['E8'] = data_type # voltage or calcium imaging
 
         # add runtime data (time, displacement etc)
         template_start_row = 2
