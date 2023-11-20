@@ -1,0 +1,52 @@
+instrument_name = "Nautilus"
+software_version = "0.1.37"
+recording_date = "2023-09-13 23:57:18"
+led_intensity = 10.0
+auto_contrast_brightness = true
+fps = 250.0
+duration = 15.0
+num_frames = 2500
+scale_factor = 2
+bit_depth = 12
+vflip = true
+hflip = false
+auto_tile = true
+width = 512
+height = 512
+num_horizontal_pixels = 1536
+num_vertical_pixels = 1024
+rows = 2
+cols = 3
+xy_pixel_size = 40
+data_type = "Calcium Imaging"
+#plot_format = "png"
+
+output_dir_path = "I:/SMM/MAminiAssembly/default_2023_09_29_214145/"
+
+input_path = "I:/SMM/MAminiAssembly/default_2023_09_29_214145/default__2023_09_29_214145.raw"
+
+
+
+
+[stage]
+vOffset = 0
+hOffset = -2
+num_wells = 24
+roiSize = 128
+roiSizeX = 96
+roiSizeY = 32
+numWellsH = 2
+numWellsV = 2
+wellSpacing = 18000
+#save_excel = true
+
+location = [
+{x=104980.0,y=62580.0},
+{x=65880.0,y=62850.0},
+{x=26630.0,y=62580.0},
+{x=104830.0,y=23580.0},
+{x=65730.0,y=23580.0},
+{x=26680.0,y=23580.0},
+]
+
+

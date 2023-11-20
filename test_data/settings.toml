@@ -1,0 +1,49 @@
+instrument_name = "Nautilus"
+#software_version = "0.1.31"
+recording_date = "2023-06-13 01:30:16"
+#led_intensity = 60.0
+output_dir_path = "test_data"
+input_path = """
+test_data/default__2023_04_21_231442.raw\
+"""
+#auto_contrast_brightness = true
+fps = 20
+duration = 1
+num_frames = 20
+scale_factor = 2
+bit_depth = 12
+#vflip = true
+#hflip = false
+#auto_tile = true
+width = 512
+height = 512
+num_horizontal_pixels = 1536
+num_vertical_pixels = 1024
+rows = 2
+cols = 3
+xy_pixel_size = 41.5
+num_wells = 24
+roiSize = 128
+numWellsH = 2
+numWellsV = 2
+wellSpacing = 18000
+hOffset = 0
+vOffset = 0
+
+
+
+#[stage]
+
+#location = [
+#{x=102130.0,y=61480.0},
+#{x=66130.0,y=61380.0},
+#{x=30030.0,y=61430.0},
+#{x=102080.0,y=25430.0},
+#{x=66030.0,y=25430.0},
+#{x=30030.0,y=25430.0},
+#]
+
+
+
+
+
